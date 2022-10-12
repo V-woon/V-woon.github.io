@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MoskviCakes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header>
+    <nav class="lock-padding">
+      <div class="container">
+        <ul class="menu">
+          <li class="menu_item"><a href="#main" class="menu_link">Главная</a></li>
+          <li class="menu_item"><a href="#works" class="menu_link">Работы</a></li>
+          <li class="menu_item"><a href="#about" class="menu_link">Повар</a></li>
+          <li class="menu_item"><a href="#reviews" class="menu_link">Отзывы</a></li>
+          <li class="menu_item"><a href="#contacts" class="menu_link">Наш телеграм</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="promo" id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 col-md-5 offset-sm-7 offset-md-7">
+          <div class="label">Вкуснейшие</div>
+          <h1 class="promo_title">Торты, десерты на заказ в Питере. Оригинально, вкусно, круто!</h1>
+          <h2 class="promo_text">Я не использую консерванты, пальмовое масло и всю вашу зарплату. Гарантирую вам приветствие!</h2>
+          <button class="promo_btn" onclick="window.location.href = '#goods';">Перейти в каталог</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalogue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 catalogue_title">Выбор тортика, чтобы запустить его в личико другу</div>
+        <div class="col-md-4" id="goods">
+          <div class="catalogue_card">
+            <img src="images/bg/choco_cake.jpg" alt="" class="catalogue_card_img">
+            <div class="catalogue_card_details">
+              <div class="catalogue_card_name">Шоколадный</div>
+              <p class="md-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button type="button" class="catalogue_card_btn popup-link">
+              <div class="click_area">
+                <a href="#popup" class="about popup-link">Подробнее</a>
+              </div>
+            </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="catalogue_card">
+            <img src="images/bg/choco_cake.jpg" alt="" class="catalogue_card_img">
+            <div class="catalogue_card_details">
+              <div class="catalogue_card_name">Шоколадный</div>
+              <p class="md-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button type="button" class="catalogue_card_btn popup-link">
+                <div class="click_area">
+                  <a href="#popup_2" class="about popup-link">Подробнее</a>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="catalogue_card">
+            <img src="images/bg/choco_cake.jpg" alt="" class="catalogue_card_img">
+            <div class="catalogue_card_details">
+              <div class="catalogue_card_name">Шоколадный</div>
+              <p class="md-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button type="button" class="catalogue_card_btn popup-link">
+                <div class="click_area">
+                  <a href="#popup_3" class="about popup-link">Подробнее</a>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="catalogue_card">
+            <img src="images/bg/choco_cake.jpg" alt="" class="catalogue_card_img">
+            <div class="catalogue_card_details">
+              <div class="catalogue_card_name">Шоколадный</div>
+              <p class="md-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button type="button" class="catalogue_card_btn popup-link">
+                <div class="click_area">
+                  <a href="#popup_4" class="about popup-link">Подробнее</a>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="catalogue_card">
+            <img src="images/bg/choco_cake.jpg" alt="" class="catalogue_card_img">
+            <div class="catalogue_card_details">
+              <div class="catalogue_card_name">Шоколадный</div>
+              <p class="md-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button type="button" class="catalogue_card_btn popup-link">
+                <div class="click_area">
+                  <a href="#popup_5" class="about popup-link">Подробнее</a>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="catalogue_card">
+            <img src="images/bg/choco_cake.jpg" alt="" class="catalogue_card_img">
+            <div class="catalogue_card_details">
+              <div class="catalogue_card_name">Шоколадный</div>
+              <p class="md-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button type="button" class="catalogue_card_btn popup-link">
+                <div class="click_area">
+                  <a href="#popup_6" class="about popup-link">Подробнее</a>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="photoOrder">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="label">Не нашли то что нужно?</div>
+          <h2 class="photoOrder_title">Приготовлю заказ любой сложности по фото или эскизу</h2>
+          <h3 class="photoOrder_text">Загрузите изображение, и я рассчитаю стоимость заказа за 30 минут!</h3>
+          <button class="photoOrder_btn">Загрузить фото</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_me" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4 col-xl-5 about_me_round"></div>
+        <div class="col-md-12 col-lg-5 offset-lg-2 offset-xl-3">
+          <div class="label">Кто готовит?</div>
+          <h2 class="about_me_title">Я лично занимаюсь всем процессом приготовления ваших дессертов</h2>
+          <ul class="about_me_list">
+            <li class="about_me_list_item">Помогу с выбором уникальной идеи оформления</li>
+            <li class="about_me_list_item">Разработаю дизайн или возьму Ваш эскиз за основу</li>
+            <li class="about_me_list_item">Аккуратно и красиво упакую</li>
+          </ul>
+          <button class="about_me_btn">Задать вопрос</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback" id="reviews">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 feedback_title">Почитайте отзывы моих клиентов</div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="rounded-5 d-block mx-auto w-75" src="https://altcraft.com/uploads/negativnye_otzyvy_o_rabote_studii_artemiya_lebedeva_3db0c68996.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="rounded-5 d-block mx-auto w-75" src="https://altcraft.com/uploads/negativnye_otzyvy_o_rabote_studii_artemiya_lebedeva_2_5f5182041d.jpg" alt="Second slide">
+            </div>
+            <!-- <div class="carousel-item">
+              <img class="d-block mx-auto w-75" src="https://altcraft.com/uploads/negativnye_otzyvy_o_rabote_studii_artemiya_lebedeva_2_5f5182041d.jpg" alt="Third slide">
+            </div> -->
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="example" id="works">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 example_title">Примеры моих работ</div>
+        <div class="example_grid">
+          <div class="example_grid_photo_2"></div>
+          <div class="example_grid_photo_1"></div>
+          <div class="example_grid_photo_3"></div>
+          <div class="example_grid_photo_4"></div>
+          <div class="example_grid_photo_5"></div>
+          <div class="example_grid_photo_6"></div>
+          <div class="example_grid_photo_7"></div>
+          <div class="example_grid_photo_8"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="call">
+    <div class="container">
+      <div class="row">
+        <div class="call_form">
+          <div class="call_form_title">Чтобы сделать заказ, укажите ваш телефон</div>
+          <div class="call_form_subtitle">Мы перезвоним в течении 15 минут, чтобы уточнить детали</div>
+          <div class="call_form_box">
+            <input type="text" class="call_form_box_text-input">
+            <button class="call_form_box_btn">Сделать заказ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <a class="footer_link" href="">Служба поддержки</a><a class="footer_link"  href="">Согласие на обработку данных</a><a class="footer_link"  href="">Политика конфиденциальности</a>
+    </div>
+    <div class="foot-footer">@MoskviCakes | Сладкие мечты</div>
+  </footer>
+
+  <div id="popup" class="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="##" class="popup_close close-popup">X</a>
+        <div class="popup_title">Modal #1</div>
+        <div class="popup_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, ad nulla velit reprehenderit numquam deserunt dolorem inventore labore et quidem non asperiores explicabo quasi, quaerat fuga porro commodi soluta ea!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup_2" class="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="##" class="popup_close close-popup">X</a>
+        <div class="popup_title">Modal #2</div>
+        <div class="popup_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, ad nulla velit reprehenderit numquam deserunt dolorem inventore labore et quidem non asperiores explicabo quasi, quaerat fuga porro commodi soluta ea!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup_3" class="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="##" class="popup_close close-popup">X</a>
+        <div class="popup_title">Modal #3</div>
+        <div class="popup_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, ad nulla velit reprehenderit numquam deserunt dolorem inventore labore et quidem non asperiores explicabo quasi, quaerat fuga porro commodi soluta ea!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup_4" class="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="##" class="popup_close close-popup">X</a>
+        <div class="popup_title">Modal #4</div>
+        <div class="popup_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, ad nulla velit reprehenderit numquam deserunt dolorem inventore labore et quidem non asperiores explicabo quasi, quaerat fuga porro commodi soluta ea!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup_5" class="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="##" class="popup_close close-popup">X</a>
+        <div class="popup_title">Modal #5</div>
+        <div class="popup_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, ad nulla velit reprehenderit numquam deserunt dolorem inventore labore et quidem non asperiores explicabo quasi, quaerat fuga porro commodi soluta ea!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup_6" class="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="##" class="popup_close close-popup">X</a>
+        <div class="popup_title">Modal #6</div>
+        <div class="popup_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, ad nulla velit reprehenderit numquam deserunt dolorem inventore labore et quidem non asperiores explicabo quasi, quaerat fuga porro commodi soluta ea!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+  <script src="scripts/popup.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
